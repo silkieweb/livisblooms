@@ -54,7 +54,7 @@ html {
   .Mission {
     text-align: center;
     padding: 10em;
-    background-image: url("images/missioncover.png");
+    background-image: url("missioncover.png");
     background-color: #AFC89C;
     max-width: 100%;
   }
