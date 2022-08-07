@@ -1,0 +1,182 @@
+/* Colors to use!
+
+#AFC89C - main green
+#88A472 - dark green
+#FFEDE2 - cream
+
+Fonts to use!
+
+font-family: 'DM Serif Display', serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+html {
+    background-color: #FFEDE2;
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  /* Header */
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo img {
+    width: 200px;
+    padding: 20px;
+  }
+  
+  nav ul {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  nav li a {
+    color: #88A472;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 1em;
+  }
+  
+  nav li a:hover {
+    color: black;
+  }
+  
+  /* Mission */
+  
+  .Mission {
+    text-align: center;
+    padding: 10em;
+    background-image: url("images/missioncover.png");
+    background-color: #AFC89C;
+    max-width: 100%;
+  }
+
+  .Mission h1 {
+      color: white;
+      font-size: 50px;
+      text-align: center;
+      font-family: 'DM Serif Display', serif;
+  }
+  
+  .Mission p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /* Available Blooms */
+  
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .AvailableFlowers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em;
+  }
+  
+  .Flower {
+    padding: 10px;
+    background-color: white;
+    min-width: 200px;
+    margin: 20px;
+    text-align: center;
+    color: #88A472;
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  /* Blooms Team */
+  
+  .Team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 3em;
+  }
+  
+  .Member {
+    padding: 10px;
+    background-color: white;
+    min-width: 200px;
+    margin: 20px;
+    text-align: center;
+    color: #88A472;
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  /* Footer */
+
+footer {
+    padding-top: 10%;
+}
+footer p {
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#sparkles p {
+    font-size: 12px;
+    color: #88A472;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 500px){
+
+    nav ul a {
+        font-size: 25px;
+    }
+
+    .Mission h1 {
+        font-size: 40px;
+
+    }
+
+    .Mission p {
+        font-size: 20px;
+    }
+
+    .Mission {
+        padding: 3em;
+    }
+
+    .AvailableFlowers {
+        padding: 1em;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .Flower {
+        padding: .8em;
+        font-size: 25px;
+    }
+
+    .Team {
+        display: none;
+    }
+    #BloomsTeam {
+        display: none;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+}
